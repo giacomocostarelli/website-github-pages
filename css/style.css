@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #06BBCC;
+    --primary: hsl(349, 94%, 41%);
     --light: #F0FBFC;
     --dark: #181d38;
 }
@@ -431,4 +431,13 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.team-item {
+    height: 100%;
+}
+.team-img {
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover;
+    width: 100%;
 }
